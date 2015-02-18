@@ -31,7 +31,7 @@ main_page_head = '''
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> 
 
     <!-- Ratings -->
-    <script src="/Users/diamondlitesolutions/Desktop/bootstrap-rating-input.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/javiertoledo/bootstrap-rating-input/master/src/bootstrap-rating-input.js" type="text/javascript"></script>
 
     <style type="text/css" media="screen">
         body {
