@@ -6,32 +6,24 @@ import re
 main_page_head = '''
 <head>
     <meta charset="utf-8">
-    <title>Trailer : Squared</title>
+    <title>Trailer Squared</title>
     
     <!-- Bootstrap 3 -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> 
 
-    <!-- Ratings -->
-    <script src="https://raw.githubusercontent.com/javiertoledo/bootstrap-rating-input/master/src/bootstrap-rating-input.js" type="text/javascript"></script>
+    <!-- Ratings. Add the directory containing the bootstrap .js file. -->
+    <script src="/directory/to/javascript/bootstrap-rating-input.js" type="text/javascript"></script>
 
     <style type="text/css" media="screen">
         body {
@@ -142,7 +134,9 @@ main_page_content = '''
     </div>
     <footer>
     <br>
-<b><center><p> Credits: Glyphicons.com & Bootstrap Rating Input </p></center></b>
+    <br>
+<center><p><b> Credits<br> 
+Glyphicons.com & Bootstrap Rating Input</p></b></center>
 </footer>
   </body>
 </html>
